@@ -2,12 +2,6 @@
     "name": "asteroide-tecnologia/layout-email",
     "type": "library",
     "description": "Esse pacote vai gerar o layout dos e-mails da asteroide",
-    "keywords": [
-        "relevant",
-        "tags",
-        "go",
-        "here"
-    ],
     "homepage": "https://www.asteroidetecnologia.com.br/",
     "license": "MIT",
     "authors": [
@@ -17,9 +11,16 @@
             "role": "Developer"
         }
     ],
-    "scripts": {
-        "post-root-package-install": [
-            "cp -avr vendor/asteroide-tecnologia/layout-email/mail resources/views/vendor/mail"
-        ]
+    "autoload": {
+        "psr-4": {
+            "Asteroide\\LayoutEmail\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asteroide\\LayoutEmail\\AsteroideLayoutEmailServiceProvider"
+            ]
+        }
     }
 }
