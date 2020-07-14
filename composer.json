@@ -1,0 +1,20 @@
+{
+    "name": "asteroide-tecnologia/layout-email",
+    "type": "library",
+    "description": "Esse pacote vai gerar o layout dos e-mails da asteroide",
+    "keywords": [
+        "relevant",
+        "tags",
+        "go",
+        "here"
+    ],
+    "homepage": "https://www.asteroidetecnologia.com.br/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adriel Renato",
+            "email": "adrie.renato@asteroidetecnologia.com.br",
+            "role": "Developer"
+        }
+    ]
+}
