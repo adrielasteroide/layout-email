@@ -19,7 +19,7 @@
     ],
     "scripts": {
         "post-root-package-install": [
-            "@php -r \"copy('mail', 'resources/views/vendor/mail');\""
+            "cp -avr vendor/asteroide-tecnologia/layout-email/mail resources/views/vendor/mail"
         ]
     }
 }
