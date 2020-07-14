@@ -13,8 +13,13 @@
     "authors": [
         {
             "name": "Adriel Renato",
-            "email": "adrie.renato@asteroidetecnologia.com.br",
+            "email": "adriel.renato@asteroidetecnologia.com.br",
             "role": "Developer"
         }
-    ]
+    ],
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"copy('mail', 'resources/views/vendor/mail');\""
+        ]
+    }
 }
