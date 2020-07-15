@@ -256,6 +256,15 @@ img {
     border-left: 18px solid #e3342f;
 }
 
+.button-purple,
+.button-asteroide {
+    background-color: #652d91;
+    border-top: 10px solid #652d91;
+    border-right: 18px solid #652d91;
+    border-bottom: 10px solid #652d91;
+    border-left: 18px solid #652d91;
+}
+
 /* Panels */
 
 .panel {
