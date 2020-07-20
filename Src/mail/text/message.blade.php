@@ -20,7 +20,8 @@
 {{-- Footer --}}
 @slot('footer')
 @component('mail::footer')
-© {{ date('Y') }} {{ config('app.name') }}. @lang('All rights reserved.')
+{{ config('app.name') }} é um produto da Asteroide Tecnologia e Pagamentos
+CNPJ: 26.600.796/0001-07 - contato@asteroidetecnologia.com.br
 @endcomponent
 @endslot
 @endcomponent
