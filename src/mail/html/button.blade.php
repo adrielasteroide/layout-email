@@ -17,3 +17,4 @@
 </td>
 </tr>
 </table>
+<span class="break-all">Se caso o botão "{{ $slot }}" não esteja sendo exibido, copie e cole a url no seu navegador: (<a href="{{$url}}">{{$url}}</a>)</span>
